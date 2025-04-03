@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--second-color);
+    background-color: var(--third-color);
+    margin-bottom: 20px;
 }
 /*Здесь будет информация о Меню*/
 .navbar {
@@ -42,14 +43,38 @@
     width: 100px;
 }
 
-
-footer{
+/*Здесь будет отображатся информация о нижнем колонтитуле*/
+.footer{
     display: flex;
+    justify-content: space-around;
+    background-color: var(--third-color);
+    margin-top: 20px;
 }
-
-
-
-
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+}
+.img-logo-footer{
+    width: 150px;
+}
+.socio-footer img{
+    width: 45px;
+}
+.coord-footer{
+    display: flex;
+    flex-direction: column;
+}
+.coord-footer a{
+    text-decoration: none;
+    color: var(--color-textes);
+}
+.title-footer-a{
+    text-decoration: none;
+    color: var(--color-textes);
+}
+.title-footer-ul{
+    list-style: none;
+}
 
 /*@media (max-width: 768px) {
     .hamburger {

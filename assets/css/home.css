@@ -15,6 +15,9 @@
     color: var(--third-color);
     margin: 0px;
  }
+ h2{
+    font-size: 35px;
+ }
  /*Здесь находится информация о секции О нас*/
  .a-propos{
     display: flex;
@@ -62,11 +65,6 @@
     display: flex;
     justify-content: center;
 }
-.text-hebergements{
-    display: flex;
-    justify-content: center;
-    color: var(--color-textes);
-}
 /*Секция Свяжитесь с нами*/
 .contactez-nous{
     background: url("/assets/images/banniere2.jpg") center center / cover no-repeat ;
@@ -87,6 +85,8 @@
 .title-avis{
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .all-avis{
     display: flex;
@@ -100,7 +100,14 @@
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-
 .stars {
     color: gold;
+}
+.nom-avis{
+    text-decoration: underline overline var(--main-color);
+    color: orange;
+    font-size: 30px;
+}
+.prenom{
+    color: orange;
 }
