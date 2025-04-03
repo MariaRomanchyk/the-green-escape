@@ -32,5 +32,75 @@
     justify-content: center;
  }
  .texte-a-propos{
-
+    text-align: justify;
  }
+ /*Секция проживание*/
+ .hebergements{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .ul-hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+ }
+ 
+.ul-hebergements div{
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ul-hebergements img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.title-hebergements{
+    display: flex;
+    justify-content: center;
+}
+.text-hebergements{
+    display: flex;
+    justify-content: center;
+    color: var(--color-textes);
+}
+/*Секция Свяжитесь с нами*/
+.contactez-nous{
+    background: url("/assets/images/banniere2.jpg") center center / cover no-repeat ;
+    width: 100%;
+    height: 450px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-contactez-nous{
+    color: var(--second-color);
+    font-size: 50px;
+    background-color: black;
+}
+/*Секция отзывов*/
+.title-avis{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.all-avis{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.avis-card{
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.stars {
+    color: gold;
+}
