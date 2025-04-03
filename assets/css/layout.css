@@ -1,0 +1,75 @@
+/*Здесь будет информация о заглавном колонтитуле страницы*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--second-color);
+}
+/*Здесь будет информация о Меню*/
+.navbar {
+    padding: 10px 20px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: var(--color-textes);
+    text-decoration: none;
+    font-size: 18px;
+}
+/*Здесь будет информация о логотипе*/
+.logo{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+/*@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}*/

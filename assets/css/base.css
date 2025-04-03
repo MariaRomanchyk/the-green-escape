@@ -1,7 +1,8 @@
 :root {
     --main-color: #4CAF50;
     --second-color: #F5F5DC;
-
+    --third-color: #FFFFFF;
+    --color-textes: #333333;
 }
 
 h1,
@@ -14,5 +15,17 @@ h4 {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    font-size: 24px;
+    color: var(--main-color);
 }
 
+body{
+    font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 24px;
+  background-color: var(--second-color);
+}
