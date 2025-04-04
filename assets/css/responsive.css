@@ -81,17 +81,14 @@ footer{
 }
 /*Адаптивность для меню для планшета*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
+    html, body {
+        height: 100%;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
-    
    main {
-        flex: 1 1 50%; 
-    }
-    img {
-        max-width: 100%;
-        height: auto;
+        flex: 1; 
     }
 }
