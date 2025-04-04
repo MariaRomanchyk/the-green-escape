@@ -1,0 +1,97 @@
+/*Адаптивность для меню для телефона*/
+@media screen and (max-width: 768px) {
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ul-hebergements{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section-avis div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nos-hebergements-div2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nos-hebergements-img{
+    max-width: 100%;
+}
+.activites-div-main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.services-divs{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.coordonnees{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.equipe-div img{
+    max-width: 100%;
+}
+.cart-img{
+    max-width: 100%;
+}
+.section-formulaire{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hamburger {
+        display: none; 
+    }
+
+.nav-links {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+        position: relative; 
+    }
+
+.nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+.nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+/*Адаптивность для меню для планшета*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+   main {
+        flex: 1 1 50%; 
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

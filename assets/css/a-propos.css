@@ -1,32 +1,33 @@
 /*Секция О нас и ценности*/
 .qui-nous{
-margin: 20px;
+    margin: 20px;
 }
 .title{
-font-size: 45px;
-display: flex;
-justify-content: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
 }
 .texte{
-display: flex;
-text-align: justify;
+    display: flex;
+    text-align: justify;
 }
 .valeurs-title{
-font-size: 30px;
-display: flex;
-justify-content: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
-.valeurs-ol{
-
+.valeurs-ol {
+    list-style: none;
+    padding-left: 0;
 }
-.valeurs-li{
-
+.valeurs-li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    background: url('/assets/images/a-propos/leaf.png') no-repeat left top;
+    background-size: 20px 20px;
 }
 .valeurs-title-li{
-color: brown;
-}
-.valeurs-p-li{
-
+    color: brown;
 }
 /*Секция с нашей командой*/
 .equipe{
