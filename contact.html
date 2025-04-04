@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Escape</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div><img class="logo" src="./assets/images/logo.jpg" alt="logo"></div>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Page d'accueil</a></li>
+                <li><a href="hebergements.html">Hébergements</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="coordonnees">
+            <div class="coordonnees-div">
+                <h1 class="coordonnees-title">Nos coordonnées :</h1>
+                <ul class="coordonnees-ul">
+                    <li class="coordonnees-li">Notre personne de contact : Éric Stevenson</li>
+                    <li class="coordonnees-li">Vous pouvez nous appeler au numéro de téléphone : +33964837295</li>
+                    <li class="coordonnees-li">Notre adresse e-mail : thegreen.escape@gmail.com</li>
+                </ul>
+            </div>
+            <div class="cart-div">
+                <h2 class="cart-title">Ma Carte</h2>
+                <iframe class="cart-img"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90493.618395778!2d-0.668413120809992!3d44.863809900017195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2z0JHQvtGA0LTQvg!5e0!3m2!1suk!2sfr!4v1743761841824!5m2!1suk!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="section-formulaire">
+            <form class="formulaire" method="post" action="form.php" enctype="multipart/form-data">
+                <legend class="formulaire-legend">Contactez-nous en remplissant le formulaire</legend>
+                <div class="field">
+                    <label class="field-label" for="name">
+                        Nom et Prénom
+                    </label>
+                    <input type="text" name="name" id="name" required autocomplete="on" placeholder="Victor Hugo">
+                </div>
+                <div class="field">
+                    <label class="field-label" for="email">
+                        Adresse e-mail
+                    </label>
+                    <input type="email" name="email" id="email" required autocomplete="on"
+                        placeholder="victor@gmail.com">
+                </div>
+                <div class="field">
+                    <label class="field-label" for="téléphone">
+                        Téléphone
+                    </label>
+                    <input type="tel" name="téléphone" id="téléphone" pattern="\+33[0-9]{12}" placeholder="+33"
+                        maxlength="12" required>
+                </div>
+                <div class="field">
+                    <label class="field-label" for="demand">
+                        Sujet
+                    </label>
+                    <textarea name="demand" id="demand" cols="10" rows="1" placeholder="Objet de votre message"
+                        maxlength="500"></textarea>
+                </div>
+                <div class="field">
+                    <label class="field-label" for="demand">
+                        Message
+                    </label>
+                    <textarea name="demand" id="demand" cols="50" rows="10" placeholder="Écrivez votre message"
+                        maxlength="500"></textarea>
+                </div>
+                <div class="envoyer">
+                    <button class="button" type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="coord-footer">
+            <h2>Coordonnées de l’entreprise</h2>
+            <a href="tel:+33964837295">tel : +33964837295</a>
+            <a href="mailto:thegreen.escape@gmail.com">thegreen.escape@gmail.com</a>
+        </div>
+        <div class="logo-footer">
+            <div><img class="img-logo-footer" src="./assets/images/logo.jpg" alt="logo"></div>
+            <div class="socio-footer">
+                <img src="./assets/images/telegram.png" alt="telegram">
+                <img src="./assets/images/whatsapp.png" alt="whatsapp">
+                <img src="./assets/images/instagram.png" alt="instagram">
+            </div>
+        </div>
+        <div>
+            <h2 class="title-footer">Informations complémentaires</h2>
+            <ul class="title-footer-ul">
+                <li>
+                    <a class="title-footer-a" href="#">Mentions légales</a>
+                </li>
+                <li>
+                    <a class="title-footer-a" href="#">Politique de confidentialité</a>
+                </li>
+                <li>
+                    <a class="title-footer-a" href="#">Informations pratiques</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

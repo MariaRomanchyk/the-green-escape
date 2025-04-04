@@ -1,0 +1,61 @@
+/*Здесь находится секция карты и координат*/
+.coordonnees{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.coordonnees-div{
+margin-right: 20px;
+}
+.coordonnees-title{
+    font-size: 40px;
+}
+.coordonnees-ul{
+    color: brown;
+    list-style-type: none;
+    padding: 0;
+}
+.coordonnees-li{
+    list-style-type: none;
+}
+.cart-div{
+margin-left: 10px;
+}
+.cart-title{
+display: flex;
+justify-content: center;
+}
+.cart-img{
+
+}
+/*Здесь находится секция формуляра*/
+.section-formulaire{
+
+}
+.formulaire {
+    background: var(--color-textes);
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 9px 10px 13px -1px rgba(0, 0, 0, 0,48);
+}
+.formulaire-legend{  
+    font-size: 30px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+.field {
+margin-bottom: 15;
+display: flex;
+flex-direction: column;
+}
+.field-label{
+color: var(--third-color);
+}
+.envoyer{
+display: flex;
+justify-content: center;
+}
