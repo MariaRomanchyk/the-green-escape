@@ -1,0 +1,65 @@
+/*Секция О нас и ценности*/
+.qui-nous{
+margin: 20px;
+}
+.title{
+font-size: 45px;
+display: flex;
+justify-content: center;
+}
+.texte{
+display: flex;
+text-align: justify;
+}
+.valeurs-title{
+font-size: 30px;
+display: flex;
+justify-content: center;
+}
+.valeurs-ol{
+
+}
+.valeurs-li{
+
+}
+.valeurs-title-li{
+color: brown;
+}
+.valeurs-p-li{
+
+}
+/*Секция с нашей командой*/
+.equipe{
+    margin: 20px;
+}
+.title-equipe{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-image {
+    flex: 1;
+    height: 100%;
+    width: 600px;
+    margin-right: 10px;
+}
+.right-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-image {
+    height: 100%;
+    width: 850px; 
+    margin-bottom: 10px; 
+}
+.bottom-image {
+    width: 100%;
+    height: 100%; 
+    margin-top: 10px; 
+}

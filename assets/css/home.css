@@ -29,6 +29,9 @@
  }
  .div-a-propos{
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
  .title-a-propos{
     display: flex;
@@ -56,8 +59,9 @@
     margin-bottom: 20px;
 }
 .ul-hebergements img{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 421px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
@@ -105,9 +109,9 @@
 }
 .nom-avis{
     text-decoration: underline overline var(--main-color);
-    color: orange;
+    color: brown;
     font-size: 30px;
 }
 .prenom{
-    color: orange;
+    color: brown;
 }
