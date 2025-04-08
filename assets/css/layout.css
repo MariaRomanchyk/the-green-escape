@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--third-color);
     margin-bottom: 20px;
+    background: url("/assets/images/header.webp") center center / cover no-repeat ;
 }
 /*Здесь будет информация о Меню*/
 .navbar {
@@ -41,6 +41,9 @@
 /*Здесь будет информация о логотипе*/
 .logo{
     width: 100px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 
 /*Здесь будет отображатся информация о нижнем колонтитуле*/

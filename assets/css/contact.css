@@ -27,7 +27,8 @@
 }
 /*Здесь находится секция формуляра*/
 .formulaire {
-    background: var(--color-textes);
+    background: url("/assets/images/forma.webp") center center / cover no-repeat ;
+    /*background: var(--color-textes);*/
     padding: 10px;
     border-radius: 15px;
     width: 80%;
