@@ -53,6 +53,9 @@
     background-color: var(--third-color);
     margin-top: 20px;
 }
+.footer a{
+    line-height: 200%;
+}
 .logo-footer{
     display: flex;
     flex-direction: column;
