@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     background-color: var(--third-color);
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
 }
 .footer a{
     line-height: 200%;
