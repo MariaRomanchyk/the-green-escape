@@ -115,7 +115,7 @@
 .stars-icon {
     width: 30px;
     height: 30px;
-    background: url('../assets/images/Big-star.png') no-repeat center center;
+    background: url('../images/Big-star.png') no-repeat center center;
     background-size: contain;
     animation: pulse 1.5s infinite;
 }
