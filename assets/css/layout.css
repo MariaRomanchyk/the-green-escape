@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    background: url("../assets/images/header.webp") center center / cover no-repeat ;
+    background: url("../images/header.webp") center center / cover no-repeat ;
 }
 /*Здесь будет информация о Меню*/
 .navbar {
